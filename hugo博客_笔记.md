@@ -38,3 +38,9 @@ hugo new docs/test_file.md
 
 
 
+# 下面就 github 相关的操作了
+- 创建github 项目，上传文件。
+- 新建一个分支， gh-pages
+- 开启 github actions 读写权限 https://github.com/buxuele/my_hugo_blog/settings/actions
+- mkdir -p .github/workflows， 新建+修改 deploy.yml
+- 修改 "hugo.toml",  增加 baseUrl 
