@@ -4,7 +4,7 @@ date = 2024-10-14T14:13:24+08:00
 draft = false
 +++
 
-
+draft = false 必须设置为 false！ 否则无法渲染！
 
 # hugo + github 博客
 
@@ -15,7 +15,7 @@ draft = false
 - 配置文件，参考来源:     https://theplaybook.dev/docs/deploy-hugo-to-github-pages/
 
 
-# hugo 是一个静态博客渲染工具， go 语言写的。
+#### hugo 是一个静态博客渲染工具， go 语言写的。
 安装: 
 > choco install hugo-extended  # 失败。 估计是权限  
 > scoop install hugo-extended  # ok!

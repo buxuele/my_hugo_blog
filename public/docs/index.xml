@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Docs on hi</title>
-    <link>//localhost:7897/docs/</link>
+    <link>http://localhost:13124/my_hugo_blog/docs/</link>
     <description>Recent content in Docs on hi</description>
     <generator>Hugo -- 0.135.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 14 Oct 2024 14:13:24 +0800</lastBuildDate>
-    <atom:link href="//localhost:7897/docs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:13124/my_hugo_blog/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test_file</title>
-      <link>//localhost:7897/docs/test_file/</link>
+      <link>http://localhost:13124/my_hugo_blog/docs/test_file/</link>
       <pubDate>Mon, 14 Oct 2024 14:13:24 +0800</pubDate>
-      <guid>//localhost:7897/docs/test_file/</guid>
+      <guid>http://localhost:13124/my_hugo_blog/docs/test_file/</guid>
       <description>&lt;h1 id=&#34;hugo--github-博客&#34;&gt;hugo + github 博客&lt;/h1&gt;
 &lt;p&gt;过程记录， 需要详细！ 因为问题非常多！&lt;/p&gt;
 &lt;ul&gt;
