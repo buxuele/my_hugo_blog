@@ -1,25 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Docs on hi</title>
-    <link>http://localhost:13124/my_hugo_blog/docs/</link>
-    <description>Recent content in Docs on hi</description>
+    <title>Docs on 我的 hugo blog</title>
+    <link>https://buxuele.github.io/my_hugo_blog/docs/</link>
+    <description>Recent content in Docs on 我的 hugo blog</description>
     <generator>Hugo -- 0.135.0</generator>
     <language>en-us</language>
     <lastBuildDate>Mon, 14 Oct 2024 14:13:24 +0800</lastBuildDate>
-    <atom:link href="http://localhost:13124/my_hugo_blog/docs/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://buxuele.github.io/my_hugo_blog/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test_file</title>
-      <link>http://localhost:13124/my_hugo_blog/docs/test_file/</link>
+      <link>https://buxuele.github.io/my_hugo_blog/docs/test_file/</link>
       <pubDate>Mon, 14 Oct 2024 14:13:24 +0800</pubDate>
-      <guid>http://localhost:13124/my_hugo_blog/docs/test_file/</guid>
-      <description>&lt;h1 id=&#34;hugo--github-博客&#34;&gt;hugo + github 博客&lt;/h1&gt;
+      <guid>https://buxuele.github.io/my_hugo_blog/docs/test_file/</guid>
+      <description>&lt;p&gt;draft = false 必须设置为 false！ 否则无法渲染！&lt;/p&gt;
+&lt;h1 id=&#34;hugo--github-博客&#34;&gt;hugo + github 博客&lt;/h1&gt;
 &lt;p&gt;过程记录， 需要详细！ 因为问题非常多！&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;参考视频教程:          &lt;a href=&#34;https://www.youtube.com/watch?v=_QSr2_pxIJs&#34;&gt;https://www.youtube.com/watch?v=_QSr2_pxIJs&lt;/a&gt;&lt;/li&gt;
 &lt;li&gt;配置文件，参考来源:     &lt;a href=&#34;https://theplaybook.dev/docs/deploy-hugo-to-github-pages/&#34;&gt;https://theplaybook.dev/docs/deploy-hugo-to-github-pages/&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1 id=&#34;hugo-是一个静态博客渲染工具-go-语言写的&#34;&gt;hugo 是一个静态博客渲染工具， go 语言写的。&lt;/h1&gt;
+&lt;h4 id=&#34;hugo-是一个静态博客渲染工具-go-语言写的&#34;&gt;hugo 是一个静态博客渲染工具， go 语言写的。&lt;/h4&gt;
 &lt;p&gt;安装:&lt;/p&gt;
 &lt;blockquote&gt;
 &lt;p&gt;choco install hugo-extended  # 失败。 估计是权限&lt;br&gt;

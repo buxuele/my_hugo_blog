@@ -1,5 +1,11 @@
 
-### 体验地址: https://buxuele.github.io/my_hugo_blog/
+### 体验地址:
+
+https://buxuele.github.io/my_hugo_blog/
+
+# 一篇文章！
+https://buxuele.github.io/my_hugo_blog/docs/test_file/
+
 
 
 # 这个是首页

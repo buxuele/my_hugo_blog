@@ -1,5 +1,5 @@
 baseURL = 'https://buxuele.github.io/my_hugo_blog/'
 languageCode = 'en-us'
-title = '我的 hugo blog'
+title = 'blog'
 theme = "PaperMod"
 
