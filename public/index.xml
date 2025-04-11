@@ -1,20 +1,50 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>我的 hugo blog</title>
-    <link>https://buxuele.github.io/my_hugo_blog/</link>
-    <description>Recent content on 我的 hugo blog</description>
+    <title>blog</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on blog</description>
     <generator>Hugo -- 0.135.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Mon, 14 Oct 2024 14:13:24 +0800</lastBuildDate>
-    <atom:link href="https://buxuele.github.io/my_hugo_blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Apr 2025 13:39:10 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Test_file</title>
-      <link>https://buxuele.github.io/my_hugo_blog/docs/test_file/</link>
+      <title>读书笔记--(经常更新)</title>
+      <link>http://localhost:1313/docs/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <pubDate>Fri, 11 Apr 2025 13:39:10 +0800</pubDate>
+      <guid>http://localhost:1313/docs/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+      <description>&lt;h3 id=&#34;测试一下插入图片&#34;&gt;测试一下插入图片。&lt;/h3&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/a2.jpg&#34; alt=&#34;a2&#34;  /&gt;
+&lt;/p&gt;
+&lt;!-- raw HTML omitted --&gt;
+&lt;h3 id=&#34;我的读书笔记&#34;&gt;我的读书笔记&lt;/h3&gt;
+&lt;h3 id=&#34;整理名言也是一个激发学习的办法好的方法都要尝试都要使用&#34;&gt;整理名言，也是一个激发学习的办法。好的方法，都要尝试，都要使用。&lt;/h3&gt;
+&lt;ol&gt;
+&lt;li&gt;心似平原走马，易放难收。 出自《增广贤文》。&lt;/li&gt;
+&lt;li&gt;某作家：每天她都会写一点，不报希望，亦无悲观。&lt;/li&gt;
+&lt;li&gt;朱熹：世上无如人欲险，几人到此误平生。&lt;/li&gt;
+&lt;/ol&gt;</description>
+    </item>
+    <item>
+      <title>hugo &#43; github 博客, 使用笔记</title>
+      <link>http://localhost:1313/docs/hugo-%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Mon, 14 Oct 2024 14:13:24 +0800</pubDate>
-      <guid>https://buxuele.github.io/my_hugo_blog/docs/test_file/</guid>
-      <description>&lt;p&gt;draft = false 必须设置为 false！ 否则无法渲染！&lt;/p&gt;
-&lt;h1 id=&#34;hugo--github-博客&#34;&gt;hugo + github 博客&lt;/h1&gt;
+      <guid>http://localhost:1313/docs/hugo-%E7%AC%94%E8%AE%B0/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/images/a1.jpg&#34; alt=&#34;a1&#34;  /&gt;
+&lt;/p&gt;
+&lt;h4 id=&#34;hugo-博客插入图片&#34;&gt;hugo 博客插入图片&lt;/h4&gt;
+&lt;p&gt;把图片放在 static/ 文件夹下&lt;/p&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;your-hugo-site/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── content/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│   └── docs/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       └── read_books.md
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── static/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│   └── images/
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       └── a1.jpg
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;然后使用
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; ![a1](/images/a1.jpg )
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;draft = false 必须设置为 false！ 否则无法渲染！&lt;/p&gt;
 &lt;p&gt;过程记录， 需要详细！ 因为问题非常多！&lt;/p&gt;
 &lt;ul&gt;
 &lt;li&gt;参考视频教程:          &lt;a href=&#34;https://www.youtube.com/watch?v=_QSr2_pxIJs&#34;&gt;https://www.youtube.com/watch?v=_QSr2_pxIJs&lt;/a&gt;&lt;/li&gt;
@@ -27,16 +57,9 @@
 scoop install hugo-extended  # ok!&lt;/p&gt;
 &lt;/blockquote&gt;
 &lt;h1 id=&#34;运行的话-最好是使用-wsl--cmd-也行&#34;&gt;运行的话， 最好是使用 wsl , cmd 也行！！&lt;/h1&gt;
-&lt;h1 id=&#34;新-hugo-建项目&#34;&gt;新 hugo 建项目&lt;/h1&gt;
+&lt;h3 id=&#34;新-hugo-建项目&#34;&gt;新 hugo 建项目&lt;/h3&gt;
 &lt;p&gt;hugo new site my_hugo_blog -f yaml
-cd my_hugo_blog&lt;/p&gt;
-&lt;h1 id=&#34;安装主题&#34;&gt;安装主题,&lt;/h1&gt;
-&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-bash&#34; data-lang=&#34;bash&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git init
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt;
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;git submodule add --depth&lt;span style=&#34;color:#f92672&#34;&gt;=&lt;/span&gt;&lt;span style=&#34;color:#ae81ff&#34;&gt;1&lt;/span&gt; https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
-&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h1 id=&#34;新建文章&#34;&gt;新建文章&lt;/h1&gt;
-&lt;p&gt;hugo new docs/test_file.md
-修改 draft = true， &amp;mdash;-&amp;gt; draft = false 否则无法渲染。&lt;/p&gt;</description>
+cd my_hugo_blog&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

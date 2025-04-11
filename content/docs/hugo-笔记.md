@@ -1,12 +1,31 @@
 +++
-title = 'Test_file'
+title = 'hugo + github 博客, 使用笔记'
 date = 2024-10-14T14:13:24+08:00
 draft = false
 +++
 
+![a1](/images/a1.jpg)
+
+#### hugo 博客插入图片
+把图片放在 static/ 文件夹下
+
+```txt
+your-hugo-site/
+├── content/
+│   └── docs/
+│       └── read_books.md
+├── static/
+│   └── images/
+│       └── a1.jpg
+
+然后使用
+ ![a1](/images/a1.jpg )
+```
+
+
+
 draft = false 必须设置为 false！ 否则无法渲染！
 
-# hugo + github 博客
 
 过程记录， 需要详细！ 因为问题非常多！
 
@@ -22,7 +41,7 @@ draft = false 必须设置为 false！ 否则无法渲染！
 # 运行的话， 最好是使用 wsl , cmd 也行！！
 
 
-# 新 hugo 建项目
+### 新 hugo 建项目
 hugo new site my_hugo_blog -f yaml
 cd my_hugo_blog
 
@@ -34,7 +53,6 @@ git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth
 git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git themes/PaperMod
 ```
 
-# 新建文章
+### 新建文章
 hugo new docs/test_file.md
 修改 draft = true， ----> draft = false 否则无法渲染。
-

@@ -32,10 +32,14 @@ theme = "PaperMod"
 hugo new docs/test_file.md
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 # !!!!!!!  修改 draft = true， ----> draft = false 否则无法渲染。
+#  而且必须是小写的 false !!!!
 # !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-查看文章：    localhost:7897/docs/test_file
+hugo new docs/read_books.md
 
+查看文章：    
+- hugo server
+- localhost:7897/docs/test_file
 
 
 # 下面就 github 相关的操作了
