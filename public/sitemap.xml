@@ -2,20 +2,20 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://buxuele.github.io/</loc>
+    <loc>https://buxuele.github.io/my_hugo_blog/</loc>
     <lastmod>2025-04-11T13:39:10+08:00</lastmod>
   </url><url>
-    <loc>https://buxuele.github.io/docs/</loc>
+    <loc>https://buxuele.github.io/my_hugo_blog/docs/</loc>
     <lastmod>2025-04-11T13:39:10+08:00</lastmod>
   </url><url>
-    <loc>https://buxuele.github.io/docs/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://buxuele.github.io/my_hugo_blog/docs/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2025-04-11T13:39:10+08:00</lastmod>
   </url><url>
-    <loc>https://buxuele.github.io/docs/hugo-%E7%AC%94%E8%AE%B0/</loc>
+    <loc>https://buxuele.github.io/my_hugo_blog/docs/hugo-%E7%AC%94%E8%AE%B0/</loc>
     <lastmod>2024-10-14T14:13:24+08:00</lastmod>
   </url><url>
-    <loc>https://buxuele.github.io/categories/</loc>
+    <loc>https://buxuele.github.io/my_hugo_blog/categories/</loc>
   </url><url>
-    <loc>https://buxuele.github.io/tags/</loc>
+    <loc>https://buxuele.github.io/my_hugo_blog/tags/</loc>
   </url>
 </urlset>

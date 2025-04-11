@@ -3,5 +3,5 @@
 
 ### 体验地址:
 
-https://buxuele.github.io/
+https://buxuele.github.io/my_hugo_blog/
 
