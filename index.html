@@ -151,8 +151,8 @@
     </h2>
   </header>
   <div class="entry-content">
-    <p> hugo 博客插入图片 把图片放在 static/ 文件夹下
-your-hugo-site/ ├── content/ │ └── docs/ │ └── read_books.md ├── static/ │ └── images/ │ └── a1.jpg 然后使用 ![a1](/images/a1.jpg) draft = false 必须设置为 false！ 否则无法渲染！
+    <p> 插入图片 - 必须使用 ![a1](/my_hugo_blog/images/a1.jpg) - 而不是 ![a1](images/a1.jpg) hugo 博客插入图片 把图片放在 static/ 文件夹下
+your-hugo-site/ ├── content/ │ └── docs/ │ └── read_books.md ├── static/ │ └── images/ │ └── a1.jpg -------&gt; 图片放在这里 然后使用 ![a1](/images/a1.jpg) draft = false 必须设置为 false！ 否则无法渲染！
 过程记录， 需要详细！ 因为问题非常多！
 参考视频教程: https://www.youtube.com/watch?v=_QSr2_pxIJs 配置文件，参考来源: https://theplaybook.dev/docs/deploy-hugo-to-github-pages/ hugo 是一个静态博客渲染工具， go 语言写的。 安装:
 choco install hugo-extended # 失败。 估计是权限

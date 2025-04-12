@@ -14,7 +14,9 @@
       <pubDate>Fri, 11 Apr 2025 13:39:10 +0800</pubDate>
       <guid>https://buxuele.github.io/my_hugo_blog/docs/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
       <description>&lt;h3 id=&#34;测试一下插入图片&#34;&gt;测试一下插入图片。&lt;/h3&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://buxuele.github.io/my_hugo_blog/images/a2.jpg&#34; alt=&#34;a2&#34;  /&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://buxuele.github.io/my_hugo_blog/my_hugo_blog/images/a2.jpg&#34; alt=&#34;a2&#34;  /&gt;
+
+&lt;img loading=&#34;lazy&#34; src=&#34;https://buxuele.github.io/my_hugo_blog/my_hugo_blog/images/a3.jpg&#34; alt=&#34;a3&#34;  /&gt;
 &lt;/p&gt;
 &lt;h3 id=&#34;我的读书笔记&#34;&gt;我的读书笔记&lt;/h3&gt;
 &lt;p&gt;整理名言，也是一个激发学习的办法。好的方法，都要尝试，都要使用。&lt;/p&gt;
@@ -44,9 +46,12 @@
       <link>https://buxuele.github.io/my_hugo_blog/docs/hugo-%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Mon, 14 Oct 2024 14:13:24 +0800</pubDate>
       <guid>https://buxuele.github.io/my_hugo_blog/docs/hugo-%E7%AC%94%E8%AE%B0/</guid>
-      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://buxuele.github.io/my_hugo_blog/images/a1.jpg&#34; alt=&#34;a1&#34;  /&gt;
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://buxuele.github.io/my_hugo_blog/my_hugo_blog/images/a1.jpg&#34; alt=&#34;a1&#34;  /&gt;
 &lt;/p&gt;
-&lt;h4 id=&#34;hugo-博客插入图片&#34;&gt;hugo 博客插入图片&lt;/h4&gt;
+&lt;h3 id=&#34;插入图片&#34;&gt;插入图片&lt;/h3&gt;
+&lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- 必须使用 ![a1](/my_hugo_blog/images/a1.jpg)
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;- 而不是    ![a1](images/a1.jpg)
+&lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;h4 id=&#34;hugo-博客插入图片&#34;&gt;hugo 博客插入图片&lt;/h4&gt;
 &lt;p&gt;把图片放在 static/ 文件夹下&lt;/p&gt;
 &lt;div class=&#34;highlight&#34;&gt;&lt;pre tabindex=&#34;0&#34; style=&#34;color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;&#34;&gt;&lt;code class=&#34;language-txt&#34; data-lang=&#34;txt&#34;&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;your-hugo-site/
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── content/
@@ -54,7 +59,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       └── read_books.md
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;├── static/
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│   └── images/
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       └── a1.jpg
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       └── a1.jpg        -------&amp;gt; 图片放在这里
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;然后使用
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; ![a1](/images/a1.jpg)
