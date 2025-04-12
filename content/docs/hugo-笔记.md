@@ -4,7 +4,15 @@ date = 2024-10-14T14:13:24+08:00
 draft = false
 +++
 
-![a1](/images/a1.jpg)
+![a1](/my_hugo_blog/images/a1.jpg)
+
+### 插入图片
+```txt
+- 必须使用 ![a1](/my_hugo_blog/images/a1.jpg)
+- 而不是    ![a1](images/a1.jpg)
+```
+
+ 
 
 #### hugo 博客插入图片
 把图片放在 static/ 文件夹下
@@ -16,7 +24,7 @@ your-hugo-site/
 │       └── read_books.md
 ├── static/
 │   └── images/
-│       └── a1.jpg
+│       └── a1.jpg        -------> 图片放在这里
 
 然后使用
  ![a1](/images/a1.jpg)

@@ -1,5 +1,9 @@
 # hugo + github 博客
 
+### 插入图片
+- 必须使用 ![a1](/my_hugo_blog/images/a1.jpg)
+- 而不是    ![a1](images/a1.jpg)
+
 过程记录， 需要详细！ 因为问题非常多！
 
 
