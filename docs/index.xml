@@ -16,13 +16,27 @@
       <description>&lt;h3 id=&#34;测试一下插入图片&#34;&gt;测试一下插入图片。&lt;/h3&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://buxuele.github.io/my_hugo_blog/images/a2.jpg&#34; alt=&#34;a2&#34;  /&gt;
 &lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
 &lt;h3 id=&#34;我的读书笔记&#34;&gt;我的读书笔记&lt;/h3&gt;
-&lt;h3 id=&#34;整理名言也是一个激发学习的办法好的方法都要尝试都要使用&#34;&gt;整理名言，也是一个激发学习的办法。好的方法，都要尝试，都要使用。&lt;/h3&gt;
+&lt;p&gt;整理名言，也是一个激发学习的办法。好的方法，都要尝试，都要使用。&lt;/p&gt;
 &lt;ol&gt;
-&lt;li&gt;心似平原走马，易放难收。 出自《增广贤文》。&lt;/li&gt;
-&lt;li&gt;某作家：每天她都会写一点，不报希望，亦无悲观。&lt;/li&gt;
-&lt;li&gt;朱熹：世上无如人欲险，几人到此误平生。&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;心似平原走马，易放难收。 出自《增广贤文》。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;某作家：每天她都会写一点，不报希望，亦无悲观。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;朱熹：世上无如人欲险，几人到此误平生。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;古之成大事者，规模远大与综理密微，二者缺一不可。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;不管天气好坏，坚持每天前进大概30公里。&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;
+&lt;p&gt;起初店里的生意比较惨淡，他们有大把的时间来编写程序。&lt;/p&gt;
+&lt;/li&gt;
 &lt;/ol&gt;</description>
     </item>
     <item>
@@ -43,7 +57,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       └── a1.jpg
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;然后使用
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; ![a1](/images/a1.jpg )
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; ![a1](/images/a1.jpg)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;draft = false 必须设置为 false！ 否则无法渲染！&lt;/p&gt;
 &lt;p&gt;过程记录， 需要详细！ 因为问题非常多！&lt;/p&gt;
 &lt;ul&gt;
@@ -56,7 +70,7 @@
 &lt;p&gt;choco install hugo-extended  # 失败。 估计是权限&lt;br&gt;
 scoop install hugo-extended  # ok!&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h1 id=&#34;运行的话-最好是使用-wsl--cmd-也行&#34;&gt;运行的话， 最好是使用 wsl , cmd 也行！！&lt;/h1&gt;
+&lt;h3 id=&#34;运行的话-最好是使用-wsl--cmd-也行&#34;&gt;运行的话， 最好是使用 wsl , cmd 也行！！&lt;/h3&gt;
 &lt;h3 id=&#34;新-hugo-建项目&#34;&gt;新 hugo 建项目&lt;/h3&gt;
 &lt;p&gt;hugo new site my_hugo_blog -f yaml
 cd my_hugo_blog&lt;/p&gt;</description>
