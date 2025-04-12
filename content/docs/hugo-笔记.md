@@ -19,7 +19,7 @@ your-hugo-site/
 │       └── a1.jpg
 
 然后使用
- ![a1](/images/a1.jpg )
+ ![a1](/images/a1.jpg)
 ```
 
 
@@ -38,7 +38,7 @@ draft = false 必须设置为 false！ 否则无法渲染！
 安装: 
 > choco install hugo-extended  # 失败。 估计是权限  
 > scoop install hugo-extended  # ok!
-# 运行的话， 最好是使用 wsl , cmd 也行！！
+### 运行的话， 最好是使用 wsl , cmd 也行！！
 
 
 ### 新 hugo 建项目
@@ -46,7 +46,7 @@ hugo new site my_hugo_blog -f yaml
 cd my_hugo_blog
 
 
-# 安装主题,
+### 安装主题,
 ```bash
 git init
 git clone https://github.com/adityatelange/hugo-PaperMod themes/PaperMod --depth=1

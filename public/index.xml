@@ -2,35 +2,59 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>blog</title>
-    <link>https://buxuele.github.io/my_hugo_blog/</link>
+    <link>http://localhost:1313/my_hugo_blog/</link>
     <description>Recent content on blog</description>
     <generator>Hugo -- 0.135.0</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 11 Apr 2025 13:39:10 +0800</lastBuildDate>
-    <atom:link href="https://buxuele.github.io/my_hugo_blog/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 11 Apr 2025 15:20:38 +0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/my_hugo_blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Del_later</title>
+      <link>http://localhost:1313/my_hugo_blog/docs/del_later/</link>
+      <pubDate>Fri, 11 Apr 2025 15:20:38 +0800</pubDate>
+      <guid>http://localhost:1313/my_hugo_blog/docs/del_later/</guid>
+      <description>&lt;h1 id=&#34;something&#34;&gt;something!!!!!!!!&lt;/h1&gt;
+&lt;p&gt;something else here too
+please delete this file later
+and the images too&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/my_hugo_blog/images/a3.jpg&#34; alt=&#34;a3&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/my_hugo_blog/images/a2.jpg&#34; alt=&#34;a2&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;01.png&#34; alt=&#34;01&#34;  /&gt;
+
+&lt;img loading=&#34;lazy&#34; src=&#34;02.png&#34; alt=&#34;02&#34;  /&gt;
+
+&lt;img loading=&#34;lazy&#34; src=&#34;03.png&#34; alt=&#34;03&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;http://localhost:1313/my_hugo_blog/&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>仅仅是草稿</title>
+      <link>http://localhost:1313/my_hugo_blog/docs/%E4%BD%BF%E7%94%A8%E5%9B%BE%E7%89%87/</link>
+      <pubDate>Fri, 11 Apr 2025 13:39:10 +0800</pubDate>
+      <guid>http://localhost:1313/my_hugo_blog/docs/%E4%BD%BF%E7%94%A8%E5%9B%BE%E7%89%87/</guid>
+      <description>&lt;h2 id=&#34;测试图片&#34;&gt;测试图片&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/my_hugo_blog/images/a3.jpg&#34; alt=&#34;a3&#34;  /&gt;
+&lt;/p&gt;</description>
+    </item>
     <item>
       <title>读书笔记--(经常更新)</title>
-      <link>https://buxuele.github.io/my_hugo_blog/docs/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
+      <link>http://localhost:1313/my_hugo_blog/docs/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Fri, 11 Apr 2025 13:39:10 +0800</pubDate>
-      <guid>https://buxuele.github.io/my_hugo_blog/docs/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
+      <guid>http://localhost:1313/my_hugo_blog/docs/%E8%AF%BB%E4%B9%A6%E7%AC%94%E8%AE%B0/</guid>
       <description>&lt;h3 id=&#34;测试一下插入图片&#34;&gt;测试一下插入图片。&lt;/h3&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://buxuele.github.io/my_hugo_blog/images/a2.jpg&#34; alt=&#34;a2&#34;  /&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/my_hugo_blog/images/a2.jpg&#34; alt=&#34;a2&#34;  /&gt;
 &lt;/p&gt;
-&lt;!-- raw HTML omitted --&gt;
 &lt;h3 id=&#34;我的读书笔记&#34;&gt;我的读书笔记&lt;/h3&gt;
-&lt;h3 id=&#34;整理名言也是一个激发学习的办法好的方法都要尝试都要使用&#34;&gt;整理名言，也是一个激发学习的办法。好的方法，都要尝试，都要使用。&lt;/h3&gt;
-&lt;ol&gt;
-&lt;li&gt;心似平原走马，易放难收。 出自《增广贤文》。&lt;/li&gt;
-&lt;li&gt;某作家：每天她都会写一点，不报希望，亦无悲观。&lt;/li&gt;
-&lt;li&gt;朱熹：世上无如人欲险，几人到此误平生。&lt;/li&gt;
-&lt;/ol&gt;</description>
+&lt;h3 id=&#34;整理名言也是一个激发学习的办法好的方法都要尝试都要使用&#34;&gt;整理名言，也是一个激发学习的办法。好的方法，都要尝试，都要使用。&lt;/h3&gt;</description>
     </item>
     <item>
       <title>hugo &#43; github 博客, 使用笔记</title>
-      <link>https://buxuele.github.io/my_hugo_blog/docs/hugo-%E7%AC%94%E8%AE%B0/</link>
+      <link>http://localhost:1313/my_hugo_blog/docs/hugo-%E7%AC%94%E8%AE%B0/</link>
       <pubDate>Mon, 14 Oct 2024 14:13:24 +0800</pubDate>
-      <guid>https://buxuele.github.io/my_hugo_blog/docs/hugo-%E7%AC%94%E8%AE%B0/</guid>
-      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;https://buxuele.github.io/my_hugo_blog/images/a1.jpg&#34; alt=&#34;a1&#34;  /&gt;
+      <guid>http://localhost:1313/my_hugo_blog/docs/hugo-%E7%AC%94%E8%AE%B0/</guid>
+      <description>&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;http://localhost:1313/my_hugo_blog/images/a1.jpg&#34; alt=&#34;a1&#34;  /&gt;
 &lt;/p&gt;
 &lt;h4 id=&#34;hugo-博客插入图片&#34;&gt;hugo 博客插入图片&lt;/h4&gt;
 &lt;p&gt;把图片放在 static/ 文件夹下&lt;/p&gt;
@@ -43,7 +67,7 @@
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;│       └── a1.jpg
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;
 &lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt;然后使用
-&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; ![a1](/images/a1.jpg )
+&lt;/span&gt;&lt;/span&gt;&lt;span style=&#34;display:flex;&#34;&gt;&lt;span&gt; ![a1](/images/a1.jpg)
 &lt;/span&gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;p&gt;draft = false 必须设置为 false！ 否则无法渲染！&lt;/p&gt;
 &lt;p&gt;过程记录， 需要详细！ 因为问题非常多！&lt;/p&gt;
 &lt;ul&gt;
@@ -56,7 +80,7 @@
 &lt;p&gt;choco install hugo-extended  # 失败。 估计是权限&lt;br&gt;
 scoop install hugo-extended  # ok!&lt;/p&gt;
 &lt;/blockquote&gt;
-&lt;h1 id=&#34;运行的话-最好是使用-wsl--cmd-也行&#34;&gt;运行的话， 最好是使用 wsl , cmd 也行！！&lt;/h1&gt;
+&lt;h3 id=&#34;运行的话-最好是使用-wsl--cmd-也行&#34;&gt;运行的话， 最好是使用 wsl , cmd 也行！！&lt;/h3&gt;
 &lt;h3 id=&#34;新-hugo-建项目&#34;&gt;新 hugo 建项目&lt;/h3&gt;
 &lt;p&gt;hugo new site my_hugo_blog -f yaml
 cd my_hugo_blog&lt;/p&gt;</description>
