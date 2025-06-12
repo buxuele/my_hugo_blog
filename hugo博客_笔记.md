@@ -32,18 +32,7 @@ git submodule add --depth=1 https://github.com/adityatelange/hugo-PaperMod.git t
 theme = "PaperMod"
 
 
-## 新建文章
-hugo new docs/test_file.md
-# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-# !!!!!!!  修改 draft = true， ----> draft = false 否则无法渲染。
-#  而且必须是小写的 false !!!!
-# !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
 
-hugo new docs/del_later.md
-
-查看文章：    
-- hugo server
-- localhost:7897/docs/test_file
 
 
 # 下面就 github 相关的操作了
