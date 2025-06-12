@@ -128,6 +128,22 @@
 
 <article class="first-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">How_to_use_github_actions
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>1. 什么是GitHub Actions？ GitHub Actions 是 GitHub 提供的一种持续集成服务，它允许用户在 GitHub 仓库中自动执行一系列的任务，包括编译代码、运行测试、发布软件包、部署应用等。
+2. 如何使用GitHub Actions？ GitHub Actions 的使用非常简单，只需要在仓库的根目录下创建一个 .github/workflows 目录，并在该目录下创建一个 YAML 文件，文件名可以自定义，但必须以 .yml 结尾。
+下面是一个简单的示例：
+name: CI on: push: branches: [ master ] pull_request: branches: [ master ] jobs: build: runs-on: ubuntu-latest steps: - uses: actions/checkout@v2 - name: Set up Python 3.8 uses: actions/setup-python@v2 with: python-version: 3.8 - name: Install dependencies run: | python -m pip install --upgrade pip pip install flake8 pytest if [ -f requirements.txt ]; then pip install -r requirements.txt; fi - name: Lint with flake8 run: | # stop the build if there are Python syntax errors or undefined names flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics - name: Test with pytest run: | pytest 该示例包含两个主要部分：
+...</p>
+  </div>
+  <footer class="entry-footer"><span title='2025-06-12 11:39:54 +0800 +0800'>June 12, 2025</span></footer>
+  <a class="entry-link" aria-label="post link to How_to_use_github_actions" href="https://buxuele.github.io/my_hugo_blog/docs/how_to_use_github_actions/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">读书笔记--(经常更新)
     </h2>
   </header>
